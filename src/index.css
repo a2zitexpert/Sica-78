@@ -92,6 +92,16 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 600;
   line-height: 1.2;
 }
+h1.header-section {
+   font-family: 'Arial', Helvetica, Arial, Lucida, sans-serif;
+    font-weight: 500;
+    font-size: 45px;
+    color: #FFFFFF !important;
+    text-shadow: 0.08em 0.08em 0em #000000;
+background:#274f75;
+text-align:center;
+padding:20px 0px
+}
 
 p {
   margin-bottom: 1rem;
