@@ -17,7 +17,7 @@ html {
 }
 
 body {
-  font-family: 'Arial', sans-serif;
+  font-family: "Arial", sans-serif;
   line-height: 1.5;
   color: #333;
   background-color: #fff;
@@ -60,6 +60,7 @@ select {
   font-family: inherit;
   font-size: inherit;
   color: inherit;
+  
 }
 
 /* ---- Layout Helpers ---- */
@@ -88,19 +89,24 @@ select {
 }
 
 /* ---- Typography ---- */
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-weight: 600;
   line-height: 1.2;
 }
 h1.header-section {
-   font-family: 'Arial', Helvetica, Arial, Lucida, sans-serif;
-    font-weight: 500;
-    font-size: 45px;
-    color: #FFFFFF !important;
-    text-shadow: 0.08em 0.08em 0em #000000;
-background:#274f75;
-text-align:center;
-padding:20px 0px
+  font-family: "Arial", Helvetica, Arial, Lucida, sans-serif;
+  font-weight: 500;
+  font-size: 45px;
+  color: #ffffff !important;
+  text-shadow: 0.08em 0.08em 0em #000000;
+  background: #274f75;
+  text-align: center;
+  padding: 20px 0px;
 }
 
 p {
@@ -111,7 +117,7 @@ p {
 .btn {
   display: inline-block;
   padding: 0.5rem 1rem;
-  background-color: #007BFF;
+  background-color: #007bff;
   color: #fff;
   border-radius: 4px;
   transition: all 0.3s ease;
@@ -122,17 +128,35 @@ p {
 }
 
 /* ---- Utilities ---- */
-.mt-1 { margin-top: 0.25rem; }
-.mt-2 { margin-top: 0.5rem; }
-.mt-3 { margin-top: 1rem; }
+.mt-1 {
+  margin-top: 0.25rem;
+}
+.mt-2 {
+  margin-top: 0.5rem;
+}
+.mt-3 {
+  margin-top: 1rem;
+}
 
-.mb-1 { margin-bottom: 0.25rem; }
-.mb-2 { margin-bottom: 0.5rem; }
-.mb-3 { margin-bottom: 1rem; }
+.mb-1 {
+  margin-bottom: 0.25rem;
+}
+.mb-2 {
+  margin-bottom: 0.5rem;
+}
+.mb-3 {
+  margin-bottom: 1rem;
+}
 
-.text-center { text-align: center; }
-.text-right { text-align: right; }
-.text-left { text-align: left; }
+.text-center {
+  text-align: center;
+}
+.text-right {
+  text-align: right;
+}
+.text-left {
+  text-align: left;
+}
 
 /* ---- Responsive ---- */
 @media (max-width: 768px) {

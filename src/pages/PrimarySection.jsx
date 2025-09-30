@@ -1,18 +1,29 @@
 import React from "react";
 
-const SeniorSecondary = () => {
+const PrimarySection = () => {
+  const links = [
+    { text: "CIRCULER REGARDING NEW ADMISSIONS", url: "/circular" },
+    { text: "PRIMARY MONTLY REPORT", url: "/monthly-report" },
+    { text: "BULLETIN", url: "/bulletin" },
+    { text: "PRIMARY WING PHOTO GALLERY", url: "/photo-gallery" },
+    { text: "GROUP PHOTOGRAPH", url: "/group-photo" },
+  ];
+
   return (
-    <div style={{ padding: "20px" }}>
-      <h1>SICA Senior Secondary School, Indore</h1>
-      <p>(Aegis: SICA Educational Trust) Affiliated to CBSE New Delhi, No 1030040</p>
-      <img src="/images/homepage-card1.jpg" alt="Senior Secondary" style={{ width: "100%", maxWidth: "800px" }} />
-      <div style={{ marginTop: "20px" }}>
-        <button style={{ padding: "10px 20px", backgroundColor: "#ff9933", border: "none", borderRadius: "5px" }}>
+    <div className="primary-container">
+      <div className="link-container">
+        <a href="/admission-form" className="admission-btn">
           Admission Form
-        </button>
+        </a>
+
+        {links.map((item, index) => (
+          <a key={index} href={item.url} className="link-btn">
+            {item.text}
+          </a>
+        ))}
       </div>
     </div>
   );
 };
 
-export default SeniorSecondary;
+export default PrimarySection;

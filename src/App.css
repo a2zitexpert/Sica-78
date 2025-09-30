@@ -1,0 +1,393 @@
+
+.footer p {
+  text-align: center;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: unset !important;
+}
+
+.top-header {
+  background-color: #2f517a;
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  color: white;
+}
+
+.logo {
+  height: 60px;
+  width: 60px;
+  margin-right: 20px;
+}
+
+.school-title {
+  text-align: center;
+  flex: 1;
+}
+
+.school-title h1 {
+  font-family: "Arial", Helvetica, Arial, Lucida, sans-serif;
+  font-weight: 500;
+  font-size: 45px;
+  color: #ffffff !important;
+  text-shadow: 0.08em 0.08em 0em #000000;
+  background: #274f75;
+  text-align: right;
+  padding: 0px 0px;
+}
+
+.school-title p {
+  margin: 5px 0 0;
+  font-size: 13px;
+  text-align: right;
+}
+
+.top-header {
+  display: flex;
+  align-items: center;
+  padding: 5px 70px;
+  background: #274f75;
+  border-bottom: 2px solid #ddd;
+}
+
+.logo {
+  width: 100px;
+  height: auto;
+  margin-right: 20px;
+  border-radius: 10px;
+}
+
+.school-title p {
+  font-size: 14px;
+  color: #000;
+  margin: 5px 0 0;
+}
+
+.menu-bar {
+  background: #414141;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menu > li {
+  position: relative;
+
+  color: #fff;
+  font-weight: 400;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  font-size: 15px !important;
+  padding: 6px 11px;
+}
+
+.primary-container {
+  background-color: #d2c6b2;
+  min-height: 100vh;
+  padding: 20px;
+  text-align: center;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.link-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+.admission-btn {
+  background-color: #e09245;
+  color: black;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  display: inline-block;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.admission-btn:hover {
+  background-color: #cf7e33;
+}
+
+.link-btn {
+  width: 80%;
+  max-width: 950px;
+  background-color: #234d70;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  text-decoration: none;
+  padding: 20px;
+  border-radius: 5px;
+  display: block;
+  box-shadow: 4px 4px 0px #ffffff;
+}
+
+.link-btn:hover {
+  background-color: #fff;
+  color: #274f75;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: #000;
+  list-style: none;
+  padding: 10px 0;
+  margin: 0;
+  min-width: 180px;
+  display: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 6px;
+  z-index: 10;
+}
+
+.dropdown-menu li {
+  padding: 10px 15px;
+  color: #fff;
+  transition: background 0.3s ease;
+}
+
+.dropdown-menu li:hover {
+  background: #f2f2f2;
+  color: #000;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+.slick-prev,
+.slick-next {
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.slick-slider:hover .slick-prev,
+.slick-slider:hover .slick-next {
+  opacity: 1;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: white !important;
+  font-size: 30px !important;
+}
+
+.slick-dots {
+  bottom: 15px !important;
+}
+
+.slick-dots li button:before {
+  color: rgb(206, 203, 203) !important;
+  font-size: 10px !important;
+  opacity: 0.7 !important;
+}
+
+.slick-dots li.slick-active button:before {
+  color: #fff !important;
+  opacity: 1 !important;
+}
+
+.footer {
+  text-align: center;
+  padding: 15px 0;
+  font-size: 14px;
+}
+
+.footer-links {
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+.footer-links a {
+  color: black;
+  text-decoration: none;
+  margin: 0 5px;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
+
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  font-size: 13px;
+  margin-top: 5px;
+  max-width: 1080px;
+  margin: auto;
+  padding-top: 50px;
+}
+
+.footer-bottom p {
+  margin: 0;
+  color: #000;
+  font-size: 13px;
+}
+
+p.footer-hodiv {
+  text-align: center;
+  padding: 10px 0px;
+  color: #fff;
+  font-weight: 700;
+  font-size: 18px;
+  margin-bottom: unset !important;
+}
+
+.footer-home {
+  background: #274f75;
+}
+
+.harish {
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr ;
+    gap:40px
+}
+
+/* top header example */
+.top-header {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+}
+.logo {
+  height: 60px;
+  margin-right: 15px;
+}
+
+/* hamburger button */
+.menu-toggle {
+  display: none;
+  font-size: 26px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+/* menu */
+.menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 20px;
+}
+.menu li {
+  cursor: pointer;
+  position: relative;
+}
+
+/* dropdowns */
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  background: #fff;
+  top: 100%;
+  left: 0;
+  list-style: none;
+  padding: 10px;
+  margin: 0;
+  border: 1px solid #ddd;
+}
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+/* responsive */
+@media (max-width: 768px) {
+.dropdown-menu {
+ 
+  background: #000;
+}
+  .harish {
+    display:grid;
+    grid-template-columns:1fr ;
+    gap:40px
+}
+  .menu-toggle {
+    display: block;
+    z-index: 9999999;
+    color: #fff;
+  }
+  .menu {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 190px;
+    right: 0%;
+    background: #3f3f3f;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: 10px;
+    z-index: 998999999;
+  }
+  .menu.open {
+    display: flex;
+    max-width: 700px;
+    margin: auto;
+    width: 100%;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (max-width: 768px) {
+  /* .menu {
+    flex-direction: column;
+    text-align: center;
+  } */
+
+  .menu > li {
+    padding: 12px;
+  }
+
+  .dropdown-menu {
+    position: static;
+    box-shadow: none;
+  }
+}
+@media (max-width: 480px) {
+  .logo {
+    width: 60px;
+  }
+
+  .top-header {
+    padding: 15px !important;
+  }
+
+  .school-title h1 {
+    font-size: 15px !important;
+    text-align: right;
+    padding: 5px 0px;
+  }
+
+  .school-title p {
+    font-size: 12px;
+    text-align: right;
+  }
+}
